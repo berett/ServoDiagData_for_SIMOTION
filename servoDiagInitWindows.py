@@ -12,6 +12,10 @@ import psutil
 
 ProgramTaskID = None
 
+def funcion_nueva():
+    texto = "Trozo de programa nuevo"
+    print(texto)
+
 def verification():
     global ProgramTaskID
     for pid in psutil.pids():

@@ -16,6 +16,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 #import matplotlib.animation as animation
 
+def funcion_nueva2(a,b):
+    texto2 = "Devolviendo la multiplicacion"
+    print(texto2)
+    return a*b
+
 log = open("log.txt","a+")
 
 def logAdd( string ):
