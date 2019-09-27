@@ -21,6 +21,11 @@ def funcion_nueva2(a,b):
     print(texto2)
     return a*b
 
+def funcion_nueva3(a,b):
+    texto3 = "version original mejorando"
+    print(texto3)
+    return a*b
+
 log = open("log.txt","a+")
 
 def logAdd( string ):
