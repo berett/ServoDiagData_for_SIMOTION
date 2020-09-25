@@ -1,0 +1,27 @@
+##
+# Archivo de CONFIGURACION de programa Diagnostico TCP/IP para Simotion
+# toda linea con '#' sera ignorada
+# NOTA IMPORTANTE: Todos los parametros deberan estar escritos en minusculas OBLIGATORIAMENTE
+##
+
+# Puerto que debe estar abierto en el PC servidor (este PC)
+# por defecto: 801
+
+puerto=801
+
+# Cantidad maxima de graficas a coger por parte del programa servidor (ante la duda dejar 15 o un numero mayor)
+# lo mejor es dejar que simotion corte la conexion cuando acabe de mandar todo lo que tenga configurado
+# por defecto: 15
+
+cantmax=15
+
+# Mostrar la grafica que ha sido capturada nada mas recibir los datos en el servidor/este PC.
+# (poniendo este parametroa '1' bloqueara la ejecucion del servidor hasta que se cierre la ventana que se crea para mostrar la grafica)
+# recomendado poner '0'. Usar el GUI para visualizar graficas.
+
+showgraph=0
+
+# Tiempo de muestreo configurado en SIMOTION
+# Por defecto: 10 ms
+
+sampling=10
